@@ -98,6 +98,15 @@ const fetchTopLanguages = async (
   let repoNodes = res.data.data.user.repositories.nodes;
   let repoToHide = {};
 
+  if ('HIDE' in process.env) {
+    console.log("Env var is set:", process.env.HIDE);
+    process.env.HIDE.split(",").forEach((repoName) => {
+      repoToHide[repoName] = true;
+    });
+  } else {
+    console.log("HIDE env var is not set, ignoring");
+  }
+
   // populate repoToHide map for quick lookup
   // while filtering out
   if (exclude_repo) {

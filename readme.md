@@ -1,7 +1,8 @@
 <p align="center">
  <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">GitHub Readme Stats</h2>
- <p align="center">Get dynamically generated GitHub stats on your READMEs! The fork is hosted on [here](https://github-readme-stats-beta-hazel.vercel.app)</p>
+ <p align="center">Get dynamically generated GitHub stats on your READMEs! The fork is hosted on <a href="https://github-readme-stats-beta-hazel.vercel.app
+">here</a></p>
 </p>
   <p align="center">
     <a href="https://github.com/anuraghazra/github-readme-stats/actions">
